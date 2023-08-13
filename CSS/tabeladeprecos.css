@@ -1,0 +1,168 @@
+/* Estilos universais página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.secao-completa {
+    width: 100%;
+}
+
+/* TAMANHO DAS FONTES */
+p, tbody{
+    font-size:14px;
+    font-weight: normal;
+}
+
+footer p, header p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+nav a{
+    font-weight: 600;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+/* TOPO */
+
+.secao-limitada {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.secao-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 15px;
+    
+}
+
+.topo-logo, .rodape-logo {
+    display: flex;
+}
+
+header img,
+footer img {
+    width: 70px;
+    margin-right: 15px;
+}
+
+header, footer{
+   background-color: #2f86d6; 
+   color: #fff;
+}
+
+h1{
+    color: black;
+}
+
+span {
+    color: #2f86d6;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #fff;
+    
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* RODAPE */
+
+.limita-rodape{
+    text-align: center;   
+    display: flex;
+    display: block;
+    
+}
+.rodape-logo{
+    margin: 50px auto 0 auto;
+    width: 310px;
+    padding-top: 50px ;
+    text-align: justify;
+}
+
+
+.copyright{
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.rodape-destaque{
+    padding: 15px 0;
+    background-color: #fff;
+    margin-top: 40px ;
+    font-weight: 500;
+    color: black;
+}
+
+table{
+    width: 100%;
+    margin: 60px auto 40px auto;
+}
+
+/* tabela */
+
+/* cor fundo seção: #fff
+celulas cabeçalho: padding, margin, cor #ded7d7
+celulas titulos: #ded7d7
+celulas corpo: padding e margin
+bolinhas azuis: #2f86d6 */
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+.coluna-cabecalho{
+    background-color: #ebe3e3 ;
+    padding: 10px;
+}
+
+.coluna-cabecalho:hover{
+    background-color: #2f86d6;
+}
+
+.coluna-corpo{
+    text-align: left;
+    background-color: #ebe3e3 ;
+    padding-left: 40px;
+    font-weight: 550;
+}
+
+td{
+    padding: 18px 0;
+    border-bottom: 1px solid #f4f3f3 ;
+    border-right: 1px solid #f4f3f3 ;
+}
+
+.marcador-azul:before{
+    content: "";
+    background-color: #2f86d6;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}

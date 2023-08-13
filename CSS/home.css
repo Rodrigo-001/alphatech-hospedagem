@@ -1,0 +1,279 @@
+/* Estilos universais página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    min-width: 786px;
+}
+
+.secao-completa {
+    width: 100%;
+}
+
+/* TAMANHO DAS FONTES */
+p, .secao-topo a, tbody{
+    font-size:16px;
+}
+a{
+    font-size: 18px;
+}
+.banner h2{
+    font-size: 30px;
+}
+.secao-informacoes h2, .secao-planos h2{
+    font-size: 32px;
+}
+h3{
+    font-size: 20px;
+    color: black;
+}
+
+h4{
+    font-size: 18px;
+}
+
+#texto-menor p{
+    font-size: 14px;
+    
+}
+
+/*ESTILOS DO TOPO */
+.secao-limitada {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.secao-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 15px;
+    
+}
+
+.topo-logo, .rodape-logo {
+    display: flex;
+}
+
+header img,
+footer img {
+    width: 70px;
+    margin-right: 15px;
+}
+
+span {
+    color: #2f86d6;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #233032;
+    
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* BANNER */
+
+.banner div:first-child {
+    width: 40%;
+}
+
+.secao-banner,
+.segundo-anuncio {
+    background-color: #2f86d6;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+    line-height: 30px;
+}
+
+.banner,
+.secao-anuncio,
+.secao-anuncio a {
+    color: #fff;
+}
+
+.banner h2
+{
+    margin: 18px 0;
+    line-height: 45px;
+}
+
+
+/* ANUNCIOS */
+.primeiro-anuncio, .botao-escuro {
+    background-color: #212f32;
+}
+
+.secao-anuncio {
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.botao-azul {
+    background-color: #2f86d6;
+    padding: 15px 20px;
+    border-radius: 4px;
+    
+}
+.botao-escuro{
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+/* NECESSÁRIO PARA USAR BEFORE COM IMAGEM */
+.secao-anuncio a{
+    display: flex;
+    align-items: center;
+}
+
+.secao-anuncio a::before {
+    content: " ";
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px 0 0;
+    background: url("../IMAGENS/icone-foguete.png");
+    background-size: 20px 20px;
+    background-position: center;
+    
+}
+
+.secao-anuncio h2{
+    max-width: 570px;
+}
+
+/* INFO */
+.secao-informacoes, .secao-planos{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.secao-informacoes:first-child{
+    width: 890px;
+}
+
+.secao-informacoes h2, .secao-planos h2{
+    line-height: 50px;
+}
+
+.secao-informacoes h4{
+    margin: 20px auto;
+}
+
+
+.secao-informacoes img{
+    width: 100px;
+}
+
+.secao-vantagens{
+    margin: 60px auto 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacao{
+    margin: 0 auto;
+}
+
+/* PLANOS */
+
+.secao-planos{
+    background-color: #eaedf3;
+}
+
+th img{
+    width: 100px;
+}
+
+table{
+    width: 100%;
+    margin: 40px auto;
+    margin-top: 60px;
+    border-radius: 5px;
+    box-shadow: 0 0 30px 15px #2f86d6;
+    background-color: #fff;
+}
+
+tr{
+    display: flex;
+    justify-content: space-between;
+}
+
+td, th{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+}
+
+td{
+    border: 1px solid #a89f9f26;
+    padding: 15px 0;
+    font-weight: 450;
+}
+
+td:hover{
+    background-color: #2f86d6;
+}
+
+th{
+    border-left: 1px solid #a89f9f26;
+    border-right: 1px solid #a89f9f26;
+    padding: 15px 0;
+}
+
+#texto-menor p{
+    color: #a89f9f;
+    font-weight: 600;
+    width: 140px;
+    margin: 0 auto;
+    
+}
+
+tbody tr:nth-of-type(odd){
+    background-color: #ded7d7;
+}
+
+/* rodape */
+.limita-rodape{
+    text-align: center;   
+}
+
+.rodape-logo{
+    margin: 50px auto 0 auto;
+    width: 310px;
+}
+
+
+#contato{
+    margin-top: 50px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.rodape-destaque{
+    padding: 15px 0;
+    background-color: #eaedf3;
+    margin-top: 40px ;
+    font-weight: 500;
+
+}
